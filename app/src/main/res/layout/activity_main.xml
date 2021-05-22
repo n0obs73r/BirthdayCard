@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/birthday"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/birthday_image" />
+
+    <TextView
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:text="@string/happy_birthday"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:textSize="70sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/aryan"
+        tools:ignore="RtlSymmetry" />
+
+</RelativeLayout>
